@@ -1,0 +1,58 @@
+body{
+	background-image: url("../images/background.png")
+}
+div {
+	background-color:blanchedalmond;
+	margin: 10px;
+	width: 25%
+}
+div {
+	border: solid 1px teal;
+	padding: 10px;
+}
+h1, h2, span  {
+	font-weight: bold;
+	text-align: center;
+}
+ol{
+	list-style: decimal inside;
+}
+ul {
+	list-style: disc inside;
+	text-indent: 20px;
+}
+.header {
+    background-color:chocolate;   
+}
+.header, .instructions {
+	width: 50%;
+}
+#finalTotal, #randomNumber, h1 {
+    font-size: 50px;
+}
+.numberToMatch {
+    background-color: mediumseagreen;
+}
+.winsAndLosses {
+    background-color: turquoise;
+}
+.numberToMatch, .winsAndLosses  {
+	float: left;
+	width: 15%;
+    height: 60px;
+}
+.userTotal{
+	width: 15%;
+    height: 60px;
+    background-color: teal;
+}
+.gems{
+    clear: both;
+    background-color: white;
+}
+.gemImage{
+	height: 60px;
+    margin: 2px;
+    border:solid 1px teal;
+    width: 21%;
+}
